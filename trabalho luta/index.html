@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="arena">
+
+        <h2>ARENA DE BATALHA</h2>
+        
+        <div class="controles">
+
+            <label>escolha seu personagem</label>
+
+            <select id="personagem">
+            <option value="tav">cael</option>
+            <option value="ludin">pamele</option>
+            <option value="valker">caler</option>
+            </select>
+
+            <label>escolha sua classe</label>
+
+            <select id="classe">
+            <option value="guerreiro">Guerreiro</option>
+            <option value="mago">Mago</option>
+            <option value="arqueiro">Arqueiro</option>
+
+        </select>
+
+        <label>equipe sua arma</label>
+        <input type="text" id="arma" placeholder="Ex: Espada, Cajado, Arco">
+        <button onclick="lutar()">INICIAR COMBATE</button>
+
+        </div>
+
+        <div id="log">Aguardando Desafiante...</div>
+
+    </div>
+    
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
